@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+       
+        }
+        
+            .nav{
+                width:100%;
+                height:15vh;
+                background-color: black;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+            
+            }
+            .nav .left{
+                width:20%;
+                height:80%;
+                margin-left: 3%;
+                display:flex;
+                align-items: center;
+
+            
+            }
+            .nav .right{
+                width:40%;
+                height:60%;
+                
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+
+            }
+            .left .log{
+                width:23%;
+                height:80%;
+                border:wheat solid 3px;
+                border-radius:50%;
+                margin:2px;
+                padding: 2px;
+                
+            }
+        .left p{
+            font-size: 25px;
+            color:white;
+            
+        }
+        .log img{
+            width:100%;
+            height:100%;
+            border-radius: 50%;
+            
+        }
+        .right a{
+            font-size: 25px;
+            color:white;
+            text-decoration: none;
+        }
+        .right .prf{
+            width: 9%;
+            height: 80%;
+            border:wheat solid 3px;
+            border-radius: 50%;
+            padding: 1px;
+           position: relative;
+        }
+        .right .prf img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .prf .dot{
+            position: absolute;
+            color: orange;
+            bottom: 37px;
+            right: -1px;
+        }
+        .right a:hover{
+            color: red;
+            font-size: 50px;
+           
+         }
+         .nav2{
+            width: 100%;
+            height: 10vh;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            
+         }
+         .nav2 .opt{
+            width: 40%;
+            height: 40%;
+           
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+         }
+         .opt a{
+            font-size: 17px;
+            color: black;
+            font-style: italic;
+            text-decoration: none;
+         }
+        .ban1{
+           width: 100%;
+           height: 85vh; 
+           background: linear-gradient(rgb(126, 137, 134),rgb(52, 183, 124));
+           
+           display: flex;
+           justify-content: space-evenly;
+
+            
+        }
+        .ban1 .left{
+            width: 10%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items:start;
+            justify-content: space-evenly;
+            margin-left:50px;
+        }
+        .ban1 .left a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(14, 9, 3);
+        }
+        .ban1 .right{
+            width: 60%;
+            height: 90%;
+            padding-top: 35px;
+
+            
+        }
+        .ban1 .right .top{
+            width: 100%;
+            height: 15%;
+            
+        }
+        .ban1 .right .mid{
+         width: 100%;
+         height: 85%;
+        }
+        .mid h1{
+            width: 100%;
+            height: 10%;
+            
+        }
+        .mid .img{
+            width:100%;
+            height:90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            border:1px solid red;
+
+            
+            
+            
+            
+        }
+        .mid .img div{
+            width: 20%;
+            height:25vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            }
+        .mid .img div img{
+            width:60%;
+            height: 60%;
+            border:black double 3px;
+           
+            border-radius: 50%;
+        }
+        .e{
+            width: 100%;
+            height: 100%;
+            background-color:rgb(28, 72, 28);
+        }
+        .mid p{
+            font-size: 15px;
+            color:black;
+            font-weight: bold;
+        }
+        u{
+         text-decoration:underline; 
+       
+        }
+        #hr1{
+            border: 2px solid rgb(77, 82, 82);
+            margin-left: 100px;
+            margin-right: 100px;
+        
+        }
+        .note {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="left">
+            <div class="log"><img src="str.png"></div>
+            <p>BAR-BUGS</p>
+
+        </div>
+        <div class="right">
+            <a href="#">Home</a>
+            <a href="#">Menue</a>
+            <a href="#">About</a>
+            <a href="#">More</a>
+            <div class="prf">
+                <img src="prf.jpg"/>
+                <div class="dot"><i class="fa-sharp fa-solid fa-circle"></i></div>
+
+            </div>
+
+        </div>
+        
+
+    </nav>
+   
+    <nav class="nav2">
+        <div class="opt">
+            <a href="#">All Products</a>
+            <a href="#">Furtherers</a>
+            <a href="#">Privious Orders</a>
+            <a href="#">Favorite Products</a>
+        </div>
+    </nav>
+    <hr/>
+    
+    
+    <div class="ban1">
+        <div class="left">
+            <a href="a"><h1><u><b>Drinks</b></u></h1></a>
+            <a href="#">Coco cola</a>
+            <a href="#">Thumsup</a>
+            <a href="#">Sprite</a>
+            <a href="#">Wodka</a>
+            <a href="#">Soda</a> 
+            <a href="#">Chilly chiken</a>
+
+
+
+        </div>
+        <divi class="right">
+            <div class="top">
+                <p><i><b>Menu / Cold Drinks</b></i></p>
+                <h1><b>Cold Drinks</b></h1>
+            </div>
+            <div class="mid">
+                <h1><b>Barbugs Refreshers</b></h1>
+                <hr>
+                <div class="img">
+                    <div class="p1">
+                        <img src="coce.jpg"/ class="e">
+                        <p>Coco cola</p>
+                    </div>
+                    <div class="p2">
+                        <img src="thumpsup.jpg"/ class="e">
+                        <p>Thumsup</p>
+               
+                    </div>
+                    <div class="p3">
+                        <img src="sprite.jpg"/ class="e">
+                        <p>sprite</p>
+                        
+                    </div>
+                    <div class="p4">
+                        <img src="wodka.jpg" class="e">
+                        <p>Wodka</p>
+
+                    </div>
+                    <div class="p5">
+                        <img src="soda.webp" class="e">
+                        <p>Soda</p>
+                    </div>
+                    <div class="p6">
+                        <img src="chiken.jpg" class="e">
+                        <p>Chilly chiken</p>
+                    </div>
+                    <div class="p7">
+                        <img src="glass.jpg" class="e">
+                        <p>Glass</p>
+                    </div>
+                    <div class="p8">
+                        <img src="weed.jpg" class="e">
+                        <p>Joint</p>
+                    </div>
+                </div>
+                <div class="note"><h>NOTE: </h><h>SOMKING AND DRINKING IS INJURES TO HELTH AND WELTH</h></div>
+                
+            </div>
+
+
+        </divi>
+    
+    </div>
+    <hr id="hr1"/>
+
+    
+</body>
+</html>
